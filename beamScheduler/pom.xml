@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>bigdataprojects</artifactId>
+        <groupId>gstamatakis</groupId>
+        <version>1.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>beamScheduler</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>kafka</module>
+        <module>cuda</module>
+        <module>beam</module>
+    </modules>
+
+    <properties>
+        <beam.version>2.12.0</beam.version>
+        <samza.version>0.14.1</samza.version>
+        <netlib.version>1.1.2</netlib.version>
+        <guava.version>20.0</guava.version>
+        <apex.version>3.7.0</apex.version>
+        <nemo.version>0.1</nemo.version>
+        <jackson.version>2.9.5</jackson.version>
+        <joda.version>2.4</joda.version>
+        <junit.version>4.12</junit.version>
+        <maven-compiler-plugin.version>3.8.0</maven-compiler-plugin.version>
+        <maven-exec-plugin.version>1.8.0</maven-exec-plugin.version>
+        <maven-jar-plugin.version>3.0.2</maven-jar-plugin.version>
+        <maven-shade-plugin.version>3.1.0</maven-shade-plugin.version>
+        <slf4j.version>1.7.25</slf4j.version>
+        <spark.version>2.3.0</spark.version>
+        <hadoop.version>2.7.3</hadoop.version>
+        <maven-surefire-plugin.version>2.21.0</maven-surefire-plugin.version>
+        <kafka.version>1.0.0</kafka.version>
+        <jetty.version>9.4.11.v20180605</jetty.version>
+        <inject.version>2.27</inject.version>
+        <jersey.version>2.27</jersey.version>
+        <influx.version>2.14</influx.version>
+    </properties>
+</project>

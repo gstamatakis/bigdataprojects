@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="stormSketches" />
+        <module name="hadoopSkyline" />
+        <module name="cuda" />
+        <module name="kafka" />
+        <module name="flinkMonitoring" />
+        <module name="hadoopJI" />
+        <module name="sparkYarnMonitoring" />
+        <module name="beam" />
+        <module name="haadoop" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="beam" target="1.8" />
+      <module name="beamScheduler" target="1.5" />
+      <module name="bigdataprojects" target="1.5" />
+      <module name="BloomCountMinStorm" target="1.8" />
+      <module name="cuda" target="1.8" />
+      <module name="flinkMonitoring" target="1.8" />
+      <module name="haadoop" target="1.5" />
+      <module name="hadoopJI" target="1.8" />
+      <module name="hadoopJoins" target="1.5" />
+      <module name="hadoopSkyline" target="1.8" />
+      <module name="jaccardIndex" target="1.5" />
+      <module name="joins" target="1.5" />
+      <module name="kafka" target="1.8" />
+      <module name="monitoring" target="1.5" />
+      <module name="sketches" target="1.5" />
+      <module name="skyline" target="1.5" />
+      <module name="sparkYarnMonitoring" target="1.8" />
+      <module name="stormSketches" target="1.8" />
+      <module name="yarnMonitoring" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
