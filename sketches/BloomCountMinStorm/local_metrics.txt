@@ -1,0 +1,74 @@
+ 5:lookupBolt 	__emit-count           	{default=10690760, __ack_ack=4808600}
+ 5:lookupBolt 	__process-latency      	{dataSpout:default=7.057455994686151E-4, querySpout:default=4.7932086225329485E-4}
+ 5:lookupBolt 	__receive              	{arrival_rate_secs=7213.891951488424, overflow=0, read_pos=409227, write_pos=409239, sojourn_time_ms=1.6634571297569922, capacity=8192, population=12}
+ 5:lookupBolt 	__ack-count            	{dataSpout:default=4817600, querySpout:default=10681780}
+ 5:lookupBolt 	__transfer-count       	{default=10690760, __ack_ack=4808600}
+ 5:lookupBolt 	__execute-latency      	{dataSpout:default=7.97988404231001E-4, querySpout:default=3.518201076419819E-4}
+ 5:lookupBolt 	__fail-count           	{}
+ 5:lookupBolt 	__sendqueue            	{arrival_rate_secs=264229.0091930541, overflow=0, read_pos=15499276, write_pos=15499371, sojourn_time_ms=0.3595366015644027, capacity=8192, population=95}
+ 5:lookupBolt 	__execute-count        	{dataSpout:default=4812100, querySpout:default=10687280}
+ 5:lookupBolt 	execute_count          	8011221
+-1:__system   	uptimeSecs             	66.958
+-1:__system   	__ack-count            	{}
+-1:__system   	__transfer-count       	{}
+-1:__system   	newWorkerEvent         	1
+-1:__system   	__send-iconnection     	{}
+-1:__system   	__fail-count           	{}
+-1:__system   	startTimeSecs          	1.520857518223E9
+-1:__system   	__emit-count           	{}
+-1:__system   	memory/nonHeap         	{unusedBytes=1252640, virtualFreeBytes=-80798433, initBytes=2555904, committedBytes=82051072, maxBytes=-1, usedBytes=80798432}
+-1:__system   	__process-latency      	{}
+-1:__system   	__receive              	{arrival_rate_secs=0.11022927689594356, overflow=0, read_pos=-1, write_pos=0, sojourn_time_ms=9072.000000000002, capacity=8192, population=1}
+-1:__system   	__transfer             	{arrival_rate_secs=0.0, overflow=0, read_pos=-1, write_pos=-1, sojourn_time_ms=0.0, capacity=1024, population=0}
+-1:__system   	__execute-latency      	{}
+-1:__system   	__sendqueue            	{arrival_rate_secs=0.0, overflow=0, read_pos=-1, write_pos=-1, sojourn_time_ms=0.0, capacity=8192, population=0}
+-1:__system   	memory/heap            	{unusedBytes=3472621080, virtualFreeBytes=8814067224, initBytes=4294967296, committedBytes=8021082112, maxBytes=13362528256, usedBytes=4548461032}
+-1:__system   	__execute-count        	{}
+ 4:lookupBolt 	execute_count          	8009519
+ 4:lookupBolt 	__emit-count           	{default=10683020, __ack_ack=4818860}
+ 4:lookupBolt 	__process-latency      	{dataSpout:default=9.141033684709128E-4, querySpout:default=4.266299415629251E-4}
+ 4:lookupBolt 	__receive              	{arrival_rate_secs=7192.261185006046, overflow=3, read_pos=409185, write_pos=409189, sojourn_time_ms=0.5561533288500337, capacity=8192, population=4}
+ 4:lookupBolt 	__ack-count            	{dataSpout:default=4813460, querySpout:default=10688420}
+ 4:lookupBolt 	__transfer-count       	{default=10683020, __ack_ack=4818860}
+ 4:lookupBolt 	__execute-latency      	{dataSpout:default=9.970876730881883E-4, querySpout:default=4.958897290945054E-4}
+ 4:lookupBolt 	__fail-count           	{}
+ 4:lookupBolt 	__sendqueue            	{arrival_rate_secs=263778.62673186633, overflow=57, read_pos=15500724, write_pos=15501824, sojourn_time_ms=4.17016349515748, capacity=8192, population=1100}
+ 4:lookupBolt 	__execute-count        	{dataSpout:default=4814020, querySpout:default=10687860}
+ 1:__acker    	__emit-count           	{__ack_ack=9632100}
+ 1:__acker    	__process-latency      	{dataSpout:__ack_init=1.9309749139366557E-4, lookupBolt:__ack_ack=3.737595853760333E-4}
+ 1:__acker    	__receive              	{arrival_rate_secs=5966.564685314685, overflow=0, read_pos=329595, write_pos=329630, sojourn_time_ms=5.866022048859099, capacity=8192, population=35}
+ 1:__acker    	__ack-count            	{dataSpout:__ack_init=9632440, lookupBolt:__ack_ack=9631860}
+ 1:__acker    	__transfer-count       	{__ack_ack=9632100}
+ 1:__acker    	__execute-latency      	{dataSpout:__ack_init=2.097245755672946E-4, lookupBolt:__ack_ack=3.8411148784027607E-4}
+ 1:__acker    	__fail-count           	{}
+ 1:__acker    	__sendqueue            	{arrival_rate_secs=165797.77440566514, overflow=38, read_pos=9631060, write_pos=9632060, sojourn_time_ms=6.031444050348067, capacity=8192, population=1000}
+ 1:__acker    	__execute-count        	{dataSpout:__ack_init=9631680, lookupBolt:__ack_ack=9632620}
+ 3:dataSpout  	__complete-latency     	{default=4.389582104922226}
+ 3:dataSpout  	__emit-count           	{default=9638320, __ack_init=9637800}
+ 3:dataSpout  	__receive              	{arrival_rate_secs=1567.6470588235295, overflow=0, read_pos=88040, write_pos=88042, sojourn_time_ms=1.275797373358349, capacity=8192, population=2}
+ 3:dataSpout  	__ack-count            	{default=9633040}
+ 3:dataSpout  	__transfer-count       	{default=9638320, __ack_init=9637800}
+ 3:dataSpout  	__fail-count           	{}
+ 3:dataSpout  	__sendqueue            	{arrival_rate_secs=331833.8535897694, overflow=0, read_pos=19276121, write_pos=19276121, sojourn_time_ms=0.0, capacity=8192, population=0}
+ 3:dataSpout  	__skipped-max-spout    	0
+ 3:dataSpout  	__skipped-inactive     	0
+ 3:dataSpout  	__skipped-throttle     	0
+ 6:querySpout 	__complete-latency     	{}
+ 6:querySpout 	__emit-count           	{default=21415020}
+ 6:querySpout 	__receive              	{arrival_rate_secs=0.21748586341887777, overflow=0, read_pos=1, write_pos=2, sojourn_time_ms=4598.0, capacity=8192, population=1}
+ 6:querySpout 	__ack-count            	{}
+ 6:querySpout 	__transfer-count       	{default=21415020}
+ 6:querySpout 	__fail-count           	{}
+ 6:querySpout 	__sendqueue            	{arrival_rate_secs=361721.7969379533, overflow=0, read_pos=21411054, write_pos=21415009, sojourn_time_ms=10.933817186246056, capacity=8192, population=3955}
+ 6:querySpout 	__skipped-max-spout    	0
+ 6:querySpout 	__skipped-inactive     	0
+ 6:querySpout 	__skipped-throttle     	0
+ 7:sinkBolt   	__emit-count           	{}
+ 7:sinkBolt   	__process-latency      	{lookupBolt:default=20.75319990093041}
+ 7:sinkBolt   	__receive              	{arrival_rate_secs=4264.1752577319585, overflow=0, read_pos=238703, write_pos=239154, sojourn_time_ms=105.76488365064975, capacity=8192, population=451}
+ 7:sinkBolt   	__ack-count            	{lookupBolt:default=21399100}
+ 7:sinkBolt   	__transfer-count       	{}
+ 7:sinkBolt   	__execute-latency      	{lookupBolt:default=0.0014606657570603518}
+ 7:sinkBolt   	__fail-count           	{}
+ 7:sinkBolt   	__sendqueue            	{arrival_rate_secs=0.0, overflow=0, read_pos=-1, write_pos=-1, sojourn_time_ms=0.0, capacity=8192, population=0}
+ 7:sinkBolt   	__execute-count        	{lookupBolt:default=21401200}
