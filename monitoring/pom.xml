@@ -23,7 +23,7 @@
         <guava.version>20.0</guava.version>
         <apex.version>3.7.0</apex.version>
         <nemo.version>0.1</nemo.version>
-        <jackson.version>2.10.1</jackson.version>
+        <jackson.version>2.13.4.1</jackson.version>
         <joda.version>2.4</joda.version>
         <junit.version>4.12</junit.version>
         <maven-compiler-plugin.version>3.8.0</maven-compiler-plugin.version>
